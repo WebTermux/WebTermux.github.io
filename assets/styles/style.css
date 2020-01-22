@@ -25,7 +25,7 @@
 }
 
 body {
-  /* background-color: chartreuse; */
+  user-select: auto;
 }
 
 .container {
@@ -68,11 +68,11 @@ body {
 
 .display {
   width: 100%;
-  height: 93vh;
+  height: 100%;
   resize: none;
   border: none;
   outline: none;
-  padding: 10px;
+  padding: 10px 10px 50px 10px;
   background-color: transparent;
   color: chartreuse;
   font-family: "Courier Prime";
@@ -81,7 +81,7 @@ body {
 }
 
 .console {
-  position: absolute;
+  transform: translateY(-35px);
   bottom: 0;
   left: 0;
   width: 100%;
