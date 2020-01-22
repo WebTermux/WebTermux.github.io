@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime:400,700&display=swap');
+
+:root {
+  --title-font: Montserrat, Arial;
+  --console-font: "Courier Prime", monospace;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: chartreuse;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: chartreuse; */
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.container .title-bar {
+  background-color: #191919;
+  height: 30px;
+  padding: 5px;
+  color: #f2f2f2;
+}
+
+.title {
+  display: block;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-family: var(--console-font);
+}
+
+.title .fa-bars {
+  float: left;
+  line-height: 20px;
+}
+
+.console-window {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #252525;
+  overflow: hidden;
+}
+
+.display {
+  width: 100%;
+  height: 93vh;
+  resize: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: transparent;
+  color: chartreuse;
+  font-family: "Courier Prime";
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.console {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: chartreuse;
+  background-color: #252525;
+  padding: 10px;
+}
+
+  
+
+
