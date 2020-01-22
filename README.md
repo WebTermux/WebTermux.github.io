@@ -1,4 +1,4 @@
-# WEB-TERMINAL ![site-status](https://img.shields.io/badge/status-up-brightgreen) ![build-version](https://img.shields.io/badge/build-beta_v1.0.1a-brightgreen)
+# WEB-TERMINAL ![site-status](https://img.shields.io/badge/status-up-brightgreen) ![build-version](https://img.shields.io/badge/build-beta_v0.0.1a-brightgreen)
 
 A JavaScript based web-terminal, where you can find all stuff in one place making your life easier, efficient & productive. 
 
