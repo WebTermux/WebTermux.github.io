@@ -7,7 +7,7 @@ var input = $(".console"),
         input.focus();
     };
     
-display.innerText = "Welcome to JavaScript Web-Terminal App\nAuthor: Raj Ghosh\nVersion: beta v0.0.1a\n\n";
+display.innerText = "Welcome to WebTermux App\nAuthor: Raj Ghosh\nVersion: beta v0.0.1a\n\n";
 
 input.onkeyup = function(e) {
     var value = input.value;
@@ -20,7 +20,7 @@ input.onkeyup = function(e) {
         input.value = "";
         
         if(value.match(/\.clear/g)) {
-            display.innerText = "Welcome to JavaScript Web-Terminal App\nAuthor: Raj Ghosh\nVersion: beta v0.0.1a\n\n>> " + "\n";
+            display.innerText = "Welcome to WebTermux App\nAuthor: Raj Ghosh\nVersion: beta v0.0.1a\n\n>> " + "\n";
 
         } else if(value.match(/\.help/g)) {
 
