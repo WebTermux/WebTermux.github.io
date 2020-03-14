@@ -1,4 +1,4 @@
-# WEB-TERMINAL ![site-status](https://img.shields.io/badge/status-up-brightgreen) ![build-version](https://img.shields.io/badge/build-beta_v0.0.1bfm-brightgreen)
+# WEB-TERMUX A WEB BASED TERMINAL ![site-status](https://img.shields.io/badge/status-up-brightgreen) ![build-version](https://img.shields.io/badge/build-beta_v0.0.11-brightgreen)
 
 A JavaScript based web-terminal, where you can find all stuff in one place making your life easier, efficient & productive. 
 
@@ -14,6 +14,7 @@ A JavaScript based web-terminal, where you can find all stuff in one place makin
 >- Added option to show alert message.
 >- Added option to google search.
 >- Added new url option.
+>- Added new youtube search option
 
 ### **Bug Fix's**
 >- Fixed some known bugs in code
@@ -24,8 +25,9 @@ A JavaScript based web-terminal, where you can find all stuff in one place makin
 Type `.help` in terminal to print all available commands.
 
 - `.clear` option will clear the terminal.
-- `.alert <value>` option will alert a given value.
-- `.google <value>` option will search your given value in google
-- `.url <value.com>` option will open a new-tab with your given value
+- `.alert <text>` option will alert a given value.
+- `.google <search keyword>` option will search your given value in google
+- `.url <example.com>` option will open a new-tab with your given value
 - `.cal <value>` option will calculate a given value
+- `.yt <search keyword>` option to search video from youtube
 ***
